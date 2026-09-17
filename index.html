@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | I Gede Juni Antara</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Navbar -->
+    <nav class="bg-slate-900 text-white">
+
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <h1 class="text-xl font-bold">
+                My Portfolio
+            </h1>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex gap-6">
+
+                <a href="index.html"
+                   class="text-blue-400">
+                    Home
+                </a>
+
+                <a href="about.html"
+                   class="hover:text-blue-400">
+                    About
+                </a>
+
+                <a href="projects.html"
+                   class="hover:text-blue-400">
+                    Projects
+                </a>
+
+                <a href="contact.html"
+                   class="hover:text-blue-400">
+                    Contact
+                </a>
+
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menuBtn"
+                    class="md:hidden text-2xl"
+                    aria-label="Buka menu">
+                ☰
+            </button>
+
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu"
+             class="hidden md:hidden px-6 pb-4">
+
+            <a href="index.html"
+               class="block py-2 text-blue-400">
+                Home
+            </a>
+
+            <a href="about.html"
+               class="block py-2">
+                About
+            </a>
+
+            <a href="projects.html"
+               class="block py-2">
+                Projects
+            </a>
+
+            <a href="contact.html"
+               class="block py-2">
+                Contact
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="min-h-[80vh] flex items-center">
+
+        <div class="max-w-6xl mx-auto px-6 w-full">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+                <!-- Text -->
+                <div>
+
+                    <p class="text-blue-600 font-semibold mb-3">
+                        HELLO, I'M
+                    </p>
+
+                    <h2 class="text-4xl md:text-6xl font-bold mb-6">
+                        I Gede Juni Antara
+                    </h2>
+
+                    <p class="text-lg text-slate-600 mb-8">
+                        Mahasiswa yang tertarik pada pengembangan website,
+                        desain antarmuka, dan teknologi informasi.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+
+                        <a href="projects.html"
+                           class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+                            Lihat Proyek
+                        </a>
+
+                        <a href="contact.html"
+                           class="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition">
+                            Hubungi Saya
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Foto Profil -->
+                <div class="flex flex-col items-center justify-center">
+
+                    <img src="assets/fotoprofil.JPG"
+                         alt="Foto Profil I Gede Juni Antara"
+                         class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full shadow-lg border-4 border-white">
+
+                    <p class="font-semibold text-blue-700 mt-4">
+                        Web Developer
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section class="bg-white py-16">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <h2 class="text-3xl font-bold text-center mb-10">
+                Keahlian
+            </h2>
+
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+
+                <!-- HTML -->
+                <div class="p-6 bg-slate-50 rounded-xl shadow text-center
+                            hover:shadow-xl hover:-translate-y-1 transition">
+
+                    <div class="text-4xl mb-3">
+                        🌐
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-2">
+                        HTML
+                    </h3>
+
+                    <p class="text-slate-600">
+                        Membuat struktur halaman website.
+                    </p>
+
+                </div>
+
+
+                <!-- CSS -->
+                <div class="p-6 bg-slate-50 rounded-xl shadow text-center
+                            hover:shadow-xl hover:-translate-y-1 transition">
+
+                    <div class="text-4xl mb-3">
+                        🎨
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-2">
+                        CSS
+                    </h3>
+
+                    <p class="text-slate-600">
+                        Membuat tampilan website menarik.
+                    </p>
+
+                </div>
+
+
+                <!-- JavaScript -->
+                <div class="p-6 bg-slate-50 rounded-xl shadow text-center
+                            hover:shadow-xl hover:-translate-y-1 transition">
+
+                    <div class="text-4xl mb-3">
+                        ⚡
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-2">
+                        JavaScript
+                    </h3>
+
+                    <p class="text-slate-600">
+                        Membuat website menjadi interaktif.
+                    </p>
+
+                </div>
+
+
+                <!-- Tailwind -->
+                <div class="p-6 bg-slate-50 rounded-xl shadow text-center
+                            hover:shadow-xl hover:-translate-y-1 transition">
+
+                    <div class="text-4xl mb-3">
+                        💻
+                    </div>
+
+                    <h3 class="font-bold text-xl mb-2">
+                        Tailwind
+                    </h3>
+
+                    <p class="text-slate-600">
+                        Membuat desain website responsive.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white text-center py-6">
+
+        <p>
+            &copy; 2026 I Gede Juni Antara.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
